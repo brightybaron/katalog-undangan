@@ -1,0 +1,541 @@
+@import url("https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Poppins&family=Satisfy&family=Poppins&family=Playfair+Display&family=Caudex&family=Yellowtail&family=Sacramento&family=Parisienne&family=EB+Garamond&family=Zeyada&family=Tangerine&display=swap");
+
+.bird {
+  background-image: url("../../img/desain/Bird.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: invert();
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.flower {
+  background-image: url("../../img/desain/flower.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: invert();
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+/* DH */
+.dh-wrapper {
+  margin: 0 auto;
+}
+
+.dh-wrapper-inner {
+  position: relative;
+}
+
+.dh {
+  display: flex;
+  padding-bottom: 0;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: calc(3rem + 1.2vw);
+  line-height: 0;
+}
+
+.dh::before {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 100%;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  font-family: "Playfair Display", serif !important;
+  font-weight: bold;
+  color: rgba(173, 173, 173, 0.2) !important;
+  /* mix-blend-mode: difference; */
+}
+
+.acara-wrap:nth-child(1) .acara .dh::before {
+  content: "Akad";
+}
+
+.acara-wrap:nth-child(2) .acara .dh::before {
+  content: "Resepsi";
+}
+
+.rsvp .dh::before {
+  content: "RSVP";
+}
+
+.galeri .dh::before {
+  content: "Galeri";
+}
+
+.hadiah .dh::before {
+  content: "Gift";
+}
+
+.dh-satu {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  display: inline-block;
+  font-family: "Playfair Display", serif !important;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-top: 0px !important;
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+}
+
+.dh-satu-inner {
+  font-size: 50%;
+  padding-top: 0px !important;
+  padding-right: 3px !important;
+  padding-bottom: 0px !important;
+  padding-left: 3px !important;
+}
+
+.dh-dua {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  display: inline-block;
+  font-family: "Tangerine", sans-serif !important;
+  color: #a8a8a8;
+  font-size: 70% !important;
+  line-height: 1.6em;
+  margin-top: 0px !important;
+  margin-bottom: -40px !important;
+  margin-left: -50px !important;
+}
+
+.dh-dua-inner {
+  display: block;
+  padding-left: 20px !important;
+  padding-top: 20px !important;
+  padding-bottom: 0px !important;
+}
+
+.dh-satu::before,
+.dh-dua::before {
+  display: block;
+  width: 0;
+  height: 0%;
+  background: #eee;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Divider */
+.divider-bawah-v {
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='100%25' height='20px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon style='fill: rgb(255, 255, 255); fill-opacity: 0.5;' points='1280 0 0 0 1024 64'%3E%3C/polygon%3E%3Cpolygon style='fill: rgb(255, 255, 255);' points='1280 0 0 0 1024 50'%3E%3C/polygon%3E%3C/svg%3E");
+  background-size: 100% 40px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 40px;
+  z-index: 5;
+  transform: rotate(180deg);
+}
+
+.divider-atas-v {
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='100%25' height='20px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon style='fill: rgb(255, 255, 255); fill-opacity: 0.5;' points='1280 0 0 0 1024 64'%3E%3C/polygon%3E%3Cpolygon style='fill: rgb(255, 255, 255);' points='1280 0 0 0 1024 50'%3E%3C/polygon%3E%3C/svg%3E");
+  background-size: 100% 40px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 40px;
+  z-index: 5;
+}
+
+.divider-bawah-v-2 {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='80px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23474a2c'%3E%3Cpath d='M 0 140 L 300 80 L 1280 140 L 0 140 Z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100% 80px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 80px;
+  z-index: 5;
+}
+
+.divider-atas-v-2 {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='80px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23474a2c'%3E%3Cpath d='M 0 140 L 300 80 L 1280 140 L 0 140 Z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100% 80px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 80px;
+  z-index: 5;
+  transform: rotate(180deg);
+}
+
+.divider-bawah-wave {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='40px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M 0 88.131 C 0 88.131 46.728 108.079 132.558 108.796 C 232.558 109.632 476.511 87.343 499.796 87.654 C 637.519 89.491 908.193 117.054 1057.784 118.41 C 1207.375 119.766 1280 104.6 1280 104.6 L 1280 140 L 0 140 L 0 88.131 Z' style='opacity: 0.3;'%3E%3C/path%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M 0 100 C 0 100 84.807 120.209 137.538 120.451 C 237.54 120.91 417.727 89.82 503.067 88.332 C 606.681 86.525 876.142 132.429 1025.733 133.785 C 1175.324 135.141 1280 117.9 1280 117.9 L 1280 140.307 L 0 140.307 L 0 100 Z' style='opacity: 0.5;'%3E%3C/path%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M 0 130.104 C 0 130.104 110.092 138.328 170.389 139.156 C 245.444 140.187 364.567 93.454 550.199 90.671 C 618.702 89.644 861.585 138.579 1011.128 139.921 C 1160.671 141.262 1280 125.069 1280 125.069 L 1280 140.2 L 0 139.93 L 0 130.104 Z' style='transform-origin: 640px 0px;'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 100% 80px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 80px;
+  z-index: 5;
+}
+
+.divider-atas-wave {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='40px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M 0 88.131 C 0 88.131 46.728 108.079 132.558 108.796 C 232.558 109.632 476.511 87.343 499.796 87.654 C 637.519 89.491 908.193 117.054 1057.784 118.41 C 1207.375 119.766 1280 104.6 1280 104.6 L 1280 140 L 0 140 L 0 88.131 Z' style='opacity: 0.3;'%3E%3C/path%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M 0 100 C 0 100 84.807 120.209 137.538 120.451 C 237.54 120.91 417.727 89.82 503.067 88.332 C 606.681 86.525 876.142 132.429 1025.733 133.785 C 1175.324 135.141 1280 117.9 1280 117.9 L 1280 140.307 L 0 140.307 L 0 100 Z' style='opacity: 0.5;'%3E%3C/path%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M 0 130.104 C 0 130.104 110.092 138.328 170.389 139.156 C 245.444 140.187 364.567 93.454 550.199 90.671 C 618.702 89.644 861.585 138.579 1011.128 139.921 C 1160.671 141.262 1280 125.069 1280 125.069 L 1280 140.2 L 0 139.93 L 0 130.104 Z' style='transform-origin: 640px 0px;'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 100% 80px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 80px;
+  z-index: 5;
+  transform: rotate(180deg);
+}
+
+.divider-bawah-wave-2 {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='40px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23A3A380' fill-opacity='1' d='M 0 88.131 C 0 88.131 46.728 108.079 132.558 108.796 C 232.558 109.632 476.511 87.343 499.796 87.654 C 637.519 89.491 908.193 117.054 1057.784 118.41 C 1207.375 119.766 1280 104.6 1280 104.6 L 1280 140 L 0 140 L 0 88.131 Z' style='opacity: 0.3;'%3E%3C/path%3E%3Cpath fill='%23A3A380' fill-opacity='1' d='M 0 100 C 0 100 84.807 120.209 137.538 120.451 C 237.54 120.91 417.727 89.82 503.067 88.332 C 606.681 86.525 876.142 132.429 1025.733 133.785 C 1175.324 135.141 1280 117.9 1280 117.9 L 1280 140.307 L 0 140.307 L 0 100 Z' style='opacity: 0.5;'%3E%3C/path%3E%3Cpath fill='%23A3A380' fill-opacity='1' d='M 0 130.104 C 0 130.104 110.092 138.328 170.389 139.156 C 245.444 140.187 364.567 93.454 550.199 90.671 C 618.702 89.644 861.585 138.579 1011.128 139.921 C 1160.671 141.262 1280 125.069 1280 125.069 L 1280 140.2 L 0 139.93 L 0 130.104 Z' style='transform-origin: 640px 0px;'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 100% 80px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 80px;
+  z-index: 5;
+}
+
+.divider-atas-wave-2 {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='40px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23a3a380' fill-opacity='1' d='M 0 88.131 C 0 88.131 46.728 108.079 132.558 108.796 C 232.558 109.632 476.511 87.343 499.796 87.654 C 637.519 89.491 908.193 117.054 1057.784 118.41 C 1207.375 119.766 1280 104.6 1280 104.6 L 1280 140 L 0 140 L 0 88.131 Z' style='opacity: 0.3;'%3E%3C/path%3E%3Cpath fill='%23a3a380' fill-opacity='1' d='M 0 100 C 0 100 84.807 120.209 137.538 120.451 C 237.54 120.91 417.727 89.82 503.067 88.332 C 606.681 86.525 876.142 132.429 1025.733 133.785 C 1175.324 135.141 1280 117.9 1280 117.9 L 1280 140.307 L 0 140.307 L 0 100 Z' style='opacity: 0.5;'%3E%3C/path%3E%3Cpath fill='%23a3a380' fill-opacity='1' d='M 0 130.104 C 0 130.104 110.092 138.328 170.389 139.156 C 245.444 140.187 364.567 93.454 550.199 90.671 C 618.702 89.644 861.585 138.579 1011.128 139.921 C 1160.671 141.262 1280 125.069 1280 125.069 L 1280 140.2 L 0 139.93 L 0 130.104 Z' style='transform-origin: 640px 0px;'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 100% 80px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 80px;
+  z-index: 5;
+  transform: rotate(180deg);
+}
+
+.divider-bawah-curve {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='27px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2376949F'%3E%3Cpath d='M725.29 101.2C325.22 122.48 0 0 0 0v140h1280V0s-154.64 79.92-554.71 101.2z' fill-opacity='.3'/%3E%3Cpath d='M556.45 119.74C953.41 140 1280 14 1280 14v126H0V0s159.5 99.48 556.45 119.74z' fill-opacity='.5'/%3E%3Cpath d='M640 140c353.46 0 640-140 640-139v140H0V0s286.54 140 640 140z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100% 35px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 35px;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.divider-atas-curve {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='27px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2376949F'%3E%3Cpath d='M725.29 101.2C325.22 122.48 0 0 0 0v140h1280V0s-154.64 79.92-554.71 101.2z' fill-opacity='.3'/%3E%3Cpath d='M556.45 119.74C953.41 140 1280 14 1280 14v126H0V0s159.5 99.48 556.45 119.74z' fill-opacity='.5'/%3E%3Cpath d='M640 140c353.46 0 640-140 640-139v140H0V0s286.54 140 640 140z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100% 35px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 35px;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  transform: rotate(180deg);
+}
+
+/* Modal */
+.modal-content.cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.cover .modal-body {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cover .modal-body .modal-text h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.modal-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Caudex", serif;
+}
+
+.btn-modal {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.btn-modal {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.btn-modal:hover {
+  background-color: #252828;
+  color: #ffffff;
+}
+
+/* Hero */
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.hero-inner {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.hero-inner {
+  letter-spacing: 1px;
+}
+
+/* Mempelai */
+.mempelai {
+  padding: 3rem 0;
+}
+
+.mempelai .card {
+  border: none;
+}
+
+.mempelai h2,
+.mempelai .fs-1 {
+  font-size: calc(1.3rem + 1.2vw);
+  font-weight: bold;
+}
+
+.mempelai p {
+  margin-bottom: 0;
+}
+
+.mempelai img {
+  width: 100%;
+  max-width: 265px;
+  height: auto;
+}
+
+/* Acara */
+
+.acara {
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.acara .dh-first {
+  position: relative;
+  left: 1rem;
+}
+
+.acara .dh-second {
+  font-family: "Tangerine", cursive;
+  top: 1.1rem;
+  right: 1.3rem;
+}
+
+.acara h2 {
+  /* font-family: "Playfair Display", serif; */
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.acara p {
+  margin: 0;
+}
+
+.acara p:nth-child(even) {
+  font-weight: bold;
+}
+
+.map {
+  width: 70%;
+  margin: 1.5rem auto 0 auto;
+}
+
+/* Countdown */
+.countdown {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  color: white;
+}
+
+.countdown h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.countdown-timer {
+  max-width: 500px;
+  margin: auto;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+/* Hadiah */
+/* dual heading */
+.dual-heading {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  z-index: 10;
+}
+
+.dh-first,
+.dh-second {
+  display: inline-block;
+}
+
+.dh-first {
+  font-family: "Playfair Display", serif;
+  font-size: calc(1rem + 1.2vw);
+  font-weight: 900;
+  text-align: end;
+}
+
+.dh-second {
+  position: relative;
+  top: 1.1rem;
+  right: 1.3rem;
+  font-family: "Monsieur La Doulaise", cursive;
+  font-size: calc(2rem + 1.2vw);
+}
+
+.hadiah {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.hadiah .modal {
+  color: #000000;
+}
+
+.btn-hadiah {
+  background-color: #827562;
+  color: #ffffff;
+}
+
+.btn-hadiah:hover {
+  background-color: #ffffff;
+  color: #827562;
+}
+
+/* Galeri */
+.galeri {
+  position: relative;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Ucapan */
+.ucapan {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* background-color: #233757; */
+  /* color: #ffffff; */
+}
+
+.ucapan .container div:first-child {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 1rem 0;
+}
+
+#modalPesan {
+  color: #000000;
+}
+
+.ucapan a {
+  cursor: pointer;
+}
+
+.ucapan .bi {
+  display: inline-block;
+  transform: rotate(15deg);
+}
+
+.ucapan .bi:hover {
+  transition: 0.3s all;
+  transform: scale(110%);
+}
+
+.comment {
+  padding: 0 1rem 1rem 1rem;
+  max-height: 50vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 0.5rem;
+}
+
+.comment p,
+.terima-kasih p {
+  margin-bottom: 0;
+}
+
+.terima-kasih {
+  padding: 2rem 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.terima-kasih p {
+  font-family: "Playfair Display", serif;
+}
+
+/* Musik */
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 2.5rem;
+  left: 2rem;
+  cursor: pointer;
+  color: white;
+  opacity: 0.5;
+  mix-blend-mode: difference;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* On Mobile */
+@media (max-width: 576px) {
+  body {
+    font-size: 85%;
+  }
+
+  .ayat {
+    width: 100% !important;
+  }
+
+  .galeri .row {
+    padding: 1rem;
+  }
+}

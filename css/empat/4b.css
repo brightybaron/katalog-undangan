@@ -1,0 +1,248 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+.body-bg {
+  background-color: #867b69;
+  color: #ffffff;
+}
+
+/* Modal */
+.modal-content.cover {
+  background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.25) 70%, #000c0f 100%), url("../../img/desain/4/4b/modal.jpg");
+  background-position: center 70%;
+}
+
+.btn-modal {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.btn-modal:hover {
+  background-color: #252828;
+  color: #ffffff;
+}
+
+/* Hero */
+.hero {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(134, 123, 105, 0.45) 90%, rgba(134, 123, 105, 1) 100%), url("../../img/desain/4/4b/hero.jpg");
+  background-position: center;
+}
+
+.hero-inner span {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero-inner h5 {
+  font-family: "EB Garamond", serif;
+}
+
+/* Bingkai */
+.bingkai {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 1rem;
+  /* margin-bottom: 3rem; */
+  border-radius: 1rem 1rem 0 0;
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.bingkai:nth-child(1) {
+  border-radius: 0 0 1rem 1rem;
+}
+
+.bingkai p {
+  margin-bottom: 0;
+}
+
+.bingkai p:nth-child(1) {
+  font-family: "Sacramento", cursive;
+}
+
+.foto {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.foto img {
+  width: 100%;
+  height: calc(50vh + 2.3vh);
+  object-fit: cover;
+  object-position: center 40%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1em 1em 0 0;
+}
+
+.foto:nth-child(2) img {
+  border-radius: 0 0 1em 1em;
+  object-position: inherit;
+}
+
+/* Foto Mempelai*/
+.img-wrapper {
+  margin: 0 auto;
+  width: 85%;
+  max-width: 400px;
+  padding: 3rem 0;
+}
+
+.img-wrapper img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 60vh;
+  border: 5px solid white;
+  border-radius: 4rem 0 4rem 0;
+}
+
+/* Mempelai */
+.mempelai-wrap {
+  /* background-image: url("../../img/desain/bg-1.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: bottom; */
+  /* background-size: cover; */
+  background-color: #ffffff;
+  height: auto;
+  color: #000000;
+}
+
+.mempelai {
+  width: 80%;
+  margin: 0 auto;
+  border-left: 8px double #867b69;
+  border-right: 8px double #867b69;
+  color: #867b69;
+}
+
+.mempelai h2 {
+  font-family: "Playfair Display", serif;
+}
+
+.mempelai .fs-1 {
+  font-family: "Playfair Display", serif;
+}
+
+.mempelai .insta-wrap {
+  color: #ffffff;
+  background-color: #284c4a;
+}
+
+/* Acara */
+.acara-wrap {
+  /* margin-top: calc(4rem + 1.5vh); */
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.acara-wrap .dh {
+  font-family: "Playfair Display", serif;
+}
+
+.acara-wrap .card {
+  border: none;
+  border-radius: 0;
+}
+
+.acara-wrap .card img {
+  border-radius: 0;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.acara-wrap .btn {
+  background-color: #76949f;
+  color: #ffffff;
+}
+
+.acara-wrap .btn:hover {
+  background-color: #284c4a;
+}
+
+.acara h2 {
+  font-family: "Playfair Display", serif;
+}
+
+.acara p:nth-child(even) {
+  font-weight: bold;
+}
+
+/* Countdown */
+.countdown-wrap {
+  background-image: url("../../img/desain/4/4b/count.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+  height: 80vh;
+  position: relative;
+  color: #ffffff;
+  width: 90%;
+  margin: 3rem auto 0 auto;
+  border-radius: 1rem;
+}
+
+.countdown-wrap-inner {
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  left: 50%;
+  width: 100%;
+}
+
+.countdown-wrap .col {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.countdown .col {
+  background-color: #867b69;
+  opacity: 0.8;
+}
+
+/* RSVP */
+.rsvp {
+  position: relative;
+  height: auto;
+  margin: 2rem auto 0 auto;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 2rem 0px;
+}
+
+.rsvp h2 {
+  font-weight: bold;
+}
+
+.rsvp-text {
+  text-align: center;
+  width: 80%;
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+/* Galeri */
+.galeri img {
+  margin: 0 auto;
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+/* On Mobile */
+@media (max-width: 576px) {
+  .mempelai .card-body {
+    text-align: center !important;
+  }
+
+  .mempelai img {
+    margin-top: 1rem;
+  }
+
+  .acara-wrap .card img {
+    height: 25vh;
+  }
+}

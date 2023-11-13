@@ -1,0 +1,165 @@
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #474a2c; */
+  /* color: white; */
+}
+
+/* Modal */
+.modal-content.cover {
+  background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.25) 70%, #000c0f 100%), url("../../img/desain/3/3b/modal.jpg");
+}
+
+.btn-modal {
+  font-family: "Playfair Display", serif;
+}
+
+.btn-modal {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.btn-modal:hover {
+  background-color: #252828;
+  color: #ffffff;
+}
+
+/* Hero */
+.hero {
+  background-image: url("../../img/desain/3/3b/hero.jpg");
+}
+
+.hero-inner span {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero-inner h5 {
+  font-family: "EB Garamond", serif;
+}
+
+/* Foto */
+.img-wrapper {
+  margin: 0 auto;
+  width: 85%;
+  max-width: 400px;
+  padding: 3rem 0;
+}
+
+.img-wrapper img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 60vh;
+  border: 5px solid white;
+  border-radius: 4rem 0 4rem 0;
+}
+
+/* Mempelai */
+
+.mempelai h2 {
+  font-family: "Playfair Display", serif;
+}
+
+.mempelai .fs-1 {
+  font-family: "Playfair Display", serif;
+}
+
+.mempelai .insta-wrap {
+  color: #ffffff;
+  background-color: #284c4a;
+}
+
+.mempelai img {
+  width: 100%;
+  max-width: 265px;
+  height: auto;
+}
+
+.wrapper {
+  background-color: #a3a380;
+  color: #ffffff;
+  padding: 3rem 0;
+}
+
+/* Acara */
+.acara-wrapper {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url("../../img/desain/3/3b/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  position: relative;
+}
+
+.acara-wrapper-inner {
+  /* border: 3px solid white; */
+  /* border-radius: 1rem; */
+  padding: 1.5rem 0;
+  /* margin: 0 1.2rem; */
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* opacity: 1; */
+}
+
+.acara-wrapper-inner .btn {
+  background-color: #284c4a;
+  color: #ffffff;
+}
+
+.acara h2 {
+  font-family: "Playfair Display", serif;
+}
+
+/* Countdown */
+.countdown-wrap {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../../img/desain/3/3b/count.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+  height: auto;
+  position: relative;
+  /* margin: 2.5rem auto; */
+  color: #ffffff;
+}
+
+.countdown-wrap-inner {
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* transform: translate(-50%, 0); */
+  /* left: 50%; */
+  width: 100%;
+}
+
+.countdown-wrap .col {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Galeri */
+
+.galeri .dh-first {
+  text-align: end;
+  font-size: calc(1rem + 1.2vw);
+}
+
+.galeri .dh-second {
+  font-family: "Tangerine", cursive;
+  font-size: calc(2rem + 1.2vw);
+}
+
+.galeri img {
+  object-fit: cover;
+  height: 90vh;
+  width: auto;
+}
+
+.galeri .carousel-item:nth-child(1) img {
+  object-position: 75% center;
+}
+
+.galeri .carousel-item:nth-child(2) img {
+  object-position: center 70%;
+}
+
+.galeri .carousel-item:nth-child(3) img {
+  object-position: center 40%;
+}

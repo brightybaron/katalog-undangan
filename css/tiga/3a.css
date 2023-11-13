@@ -1,0 +1,192 @@
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #474a2c; */
+  /* color: white; */
+}
+
+.divider-bawah-wave {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='40px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M 0 88.131 C 0 88.131 46.728 108.079 132.558 108.796 C 232.558 109.632 476.511 87.343 499.796 87.654 C 637.519 89.491 908.193 117.054 1057.784 118.41 C 1207.375 119.766 1280 104.6 1280 104.6 L 1280 140 L 0 140 L 0 88.131 Z' style='opacity: 0.3;'%3E%3C/path%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M 0 100 C 0 100 84.807 120.209 137.538 120.451 C 237.54 120.91 417.727 89.82 503.067 88.332 C 606.681 86.525 876.142 132.429 1025.733 133.785 C 1175.324 135.141 1280 117.9 1280 117.9 L 1280 140.307 L 0 140.307 L 0 100 Z' style='opacity: 0.5;'%3E%3C/path%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M 0 130.104 C 0 130.104 110.092 138.328 170.389 139.156 C 245.444 140.187 364.567 93.454 550.199 90.671 C 618.702 89.644 861.585 138.579 1011.128 139.921 C 1160.671 141.262 1280 125.069 1280 125.069 L 1280 140.2 L 0 139.93 L 0 130.104 Z' style='transform-origin: 640px 0px;'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 100% 80px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 80px;
+  z-index: 5;
+}
+
+.divider-atas-wave {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='40px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M 0 88.131 C 0 88.131 46.728 108.079 132.558 108.796 C 232.558 109.632 476.511 87.343 499.796 87.654 C 637.519 89.491 908.193 117.054 1057.784 118.41 C 1207.375 119.766 1280 104.6 1280 104.6 L 1280 140 L 0 140 L 0 88.131 Z' style='opacity: 0.3;'%3E%3C/path%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M 0 100 C 0 100 84.807 120.209 137.538 120.451 C 237.54 120.91 417.727 89.82 503.067 88.332 C 606.681 86.525 876.142 132.429 1025.733 133.785 C 1175.324 135.141 1280 117.9 1280 117.9 L 1280 140.307 L 0 140.307 L 0 100 Z' style='opacity: 0.5;'%3E%3C/path%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M 0 130.104 C 0 130.104 110.092 138.328 170.389 139.156 C 245.444 140.187 364.567 93.454 550.199 90.671 C 618.702 89.644 861.585 138.579 1011.128 139.921 C 1160.671 141.262 1280 125.069 1280 125.069 L 1280 140.2 L 0 139.93 L 0 130.104 Z' style='transform-origin: 640px 0px;'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 100% 80px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 80px;
+  z-index: 5;
+  transform: rotate(180deg);
+}
+
+/* Modal */
+.modal-content.cover {
+  background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.25) 70%, #000c0f 100%), url("../../img/desain/3/3a/modal.jpg");
+}
+
+.btn-modal {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.btn-modal {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.btn-modal:hover {
+  background-color: #252828;
+  color: #ffffff;
+}
+
+/* Hero */
+.hero {
+  background-image: url("../../img/desain/3/3a/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.hero-inner {
+  /* position: relative; */
+  position: absolute;
+  text-align: center;
+  /* top: 70vh; */
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.hero-inner {
+  letter-spacing: 1px;
+}
+
+.hero-inner span {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero-inner h5 {
+  font-family: "EB Garamond", serif;
+}
+
+/* Foto */
+.img-section {
+  position: relative;
+  width: 100%;
+}
+
+.img-section img {
+  object-fit: cover;
+  object-position: 40% center;
+  height: 80vh;
+  width: 100%;
+}
+
+/* Mempelai */
+.mempelai {
+  padding: 3rem 0;
+}
+
+.mempelai .card {
+  border: none;
+}
+
+.mempelai h2 {
+  font-family: "Playfair Display", serif;
+  font-size: calc(1.3rem + 1.2vw);
+  font-weight: bold;
+}
+
+.mempelai .fs-1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.mempelai p {
+  margin-bottom: 0;
+}
+
+.mempelai .insta-wrap {
+  color: #ffffff;
+  background-color: #284c4a;
+}
+
+.mempelai img {
+  width: 100%;
+  max-width: 265px;
+  height: auto;
+}
+
+.wrapper {
+  background-color: #a3a380;
+  color: #ffffff;
+  padding: 3rem 0;
+}
+
+/* Acara */
+.outer-acara {
+  background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.25) 70%, #000c0f 100%), url("../../img/desain/3/3a/cd.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding: 5rem 0;
+  position: relative;
+}
+
+.wrapper .btn {
+  background-color: #252828;
+  color: #ffffff;
+}
+
+.wrapper-acara {
+  border: 3px solid white;
+  border-radius: 1rem;
+  padding: 1.5rem 0;
+  margin: 0 1.2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Countdown */
+.countdown-wrapper {
+  position: relative;
+  padding: 1rem 0 3rem 0;
+  /* background-color: #233757; */
+  /* color: #ffffff; */
+}
+
+/* Galeri */
+.galeri {
+  position: relative;
+  height: auto;
+  margin: 0 auto;
+}
+
+.galeri img {
+  object-fit: cover;
+  height: 90vh;
+  width: auto;
+}
+
+.galeri .carousel-item:nth-child(1) img {
+  object-position: 75% center;
+}
+
+.galeri .carousel-item:nth-child(2) img {
+  object-position: 70% center;
+}
+
+.galeri .carousel-item:nth-child(3) img {
+  object-position: 45% center;
+}

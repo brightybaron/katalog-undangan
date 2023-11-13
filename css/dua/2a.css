@@ -1,0 +1,83 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+/* Modal */
+.modal-content.cover {
+  background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.25) 70%, #000c0f 100%), url("../../img/desain/2/2a/modal-cover.jpg");
+  background-position: center 30%;
+}
+
+/* Hero */
+.hero {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(78, 79, 73, 0.3) 80%, rgba(78, 79, 73, 1) 100%), url("../../img/desain/2/2a/hero.jpg");
+  background-position: center 35%;
+}
+
+.hero-inner span {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero-inner h5 {
+  font-family: "EB Garamond", serif;
+}
+
+/* Rect  */
+.rectangle {
+  padding: 3rem 0;
+  color: #ffffff;
+}
+
+.rectangle:nth-child(odd) {
+  background-color: #4e4f49;
+}
+
+.rectangle:nth-child(even) {
+  background-color: #706959;
+}
+
+.rectangle .inner {
+  border: 5px double #ffffff;
+  width: 90%;
+  padding: 2rem 1rem;
+}
+
+/* Acara */
+.acara {
+  text-align: center;
+}
+
+.rectangle:nth-child(even) .inner .btn {
+  background-color: #252828;
+  color: #ffffff;
+}
+
+/* Countdown */
+.countdown-wrapper {
+  position: relative;
+  padding: 1rem 0 3rem 0;
+  /* background-color: #233757; */
+  /* color: #ffffff; */
+}
+
+/* Galeri */
+.galeri {
+  height: auto;
+  margin: 0 auto;
+}
+
+.galeri img {
+  object-fit: cover;
+  object-position: center 30%;
+  height: 90vh;
+  width: auto;
+}
+
+/* On Mobile */
+@media (max-width: 576px) {
+  .galeri img {
+    height: 70vh;
+  }
+}

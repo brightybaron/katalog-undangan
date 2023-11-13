@@ -1,0 +1,277 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Poppins&family=Satisfy&family=Poppins&family=Playfair+Display&family=Caudex&family=Yellowtail&family=Sacramento&display=swap");
+
+body {
+  font-family: "Poppins", serif;
+}
+
+.body-2 {
+  background-image: linear-gradient(180deg, #252828 0%, #ffffff 100%) !important;
+  /* color: #fffbf9; */
+}
+
+.bird {
+  background-image: url("../../img/desain/Bird.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: invert();
+  width: 50px;
+  height: 50px;
+  margin: 1.5rem auto;
+}
+
+/* Modal */
+.modal-content.cover {
+  background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.55) 70%, #000c0f 100%), url("../../img/desain/1/1b/purple-and-pink-dark-floral-plain.jpg");
+  background-repeat: repeat;
+  height: 100vh;
+}
+
+.modal-body .modal-text h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+}
+
+.modal-text {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  padding: 1rem 0;
+  color: #ffffff;
+  font-family: "Caudex", serif;
+}
+
+.btn-modal {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.btn-modal {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.btn-modal:hover {
+  background-color: #142c49;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(180deg, rgba(37, 40, 40, 0.1) 0%, #252828 100%), url("../../img/desain/1/1b/purple-and-pink-dark-floral-plain.jpg");
+  background-repeat: repeat;
+  height: 100vh;
+}
+
+.hero-content {
+  position: relative;
+  top: 60vh;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+}
+
+.hero-content h5 {
+  font-family: "Caudex", serif;
+}
+
+.hero-content h3 {
+  font-family: "Yellowtail", cursive;
+  font-size: 4rem;
+}
+
+.hero-content h6 {
+  font-family: "Yellowtail", cursive;
+  font-size: 3rem;
+}
+
+/* Data Mmepelai */
+.mempelai {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../../img/desain/1/1b/purple-and-pink-dark-floral-plain.jpg");
+  background-repeat: repeat;
+  padding: 1.5rem 0;
+  border: 5px solid black;
+  color: #fff;
+}
+
+.mempelai .col-sm h3:nth-child(2) {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.mempelai .col-sm h3:first-child {
+  font-family: "Sacramento", cursive;
+  font-size: 3.5rem;
+}
+
+/* Countdown */
+.countdown-wrapper {
+  position: relative;
+  padding: 1rem 0 3rem 0;
+  /* background-color: #233757; */
+  color: #ffffff;
+}
+
+.countdown {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.countdown h4 {
+  font-size: 2rem;
+}
+
+.countdown-timer {
+  max-width: 500px;
+  margin: auto;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+/* Acara */
+.acara {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("../../img/desain/1/1b/purple-and-pink-dark-floral-plain.jpg");
+  background-repeat: repeat;
+  padding: 1.5rem 0;
+  border: 5px solid black;
+  color: #fff;
+}
+
+.acara h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.acara p:nth-child(even) {
+  font-weight: bold;
+}
+
+.map {
+  width: 70%;
+  margin-top: 1.5rem;
+}
+
+/* Hadiah */
+/* dual heading */
+.dual-heading {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.dh-first,
+.dh-second {
+  display: inline-block;
+}
+
+.dh-first {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.dh-second {
+  position: relative;
+  top: 1.1rem;
+  right: 2.3rem;
+  font-family: "Monsieur La Doulaise", sans-serif;
+  font-size: 3rem;
+}
+
+.hadiah {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.btn-hadiah {
+  background-color: #233757;
+  color: #ffffff;
+}
+
+/* Ucapan */
+.ucapan {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* background-color: #233757;
+  color: #ffffff; */
+}
+
+.ucapan a {
+  cursor: pointer;
+}
+
+.ucapan .bi {
+  display: inline-block;
+  transform: rotate(15deg);
+}
+
+.ucapan .bi:hover {
+  transition: 0.3s all;
+  transform: scale(110%);
+}
+
+.comment {
+  padding: 1rem;
+  margin-top: 1rem;
+  max-height: 50vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 0.5rem;
+}
+
+.comment p {
+  margin-bottom: 0;
+}
+
+/* Musik */
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2rem;
+  cursor: pointer;
+  color: white;
+  opacity: 0.5;
+  mix-blend-mode: difference;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-content {
+    top: 50vh;
+  }
+  .audio-icon-wrapper {
+    width: 3rem;
+    height: 3rem;
+    font-size: 3rem;
+  }
+
+  .comment p,
+  .ayat p {
+    font-size: 90%;
+  }
+
+  .map {
+    width: 100%;
+  }
+}

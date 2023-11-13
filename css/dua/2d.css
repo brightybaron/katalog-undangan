@@ -1,0 +1,90 @@
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #474a2c; */
+  /* color: white; */
+}
+
+.wrapper {
+  background-color: #a3a380;
+  color: #ffffff;
+  padding: 3rem 0;
+}
+
+/* Modal */
+.modal-content.cover {
+  background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.25) 70%, #000c0f 100%), url("../../img/desain/2/2d/modal.jpg");
+}
+
+/* Hero */
+.hero {
+  background-image: url("../../img/desain/2/2d/hero.jpg");
+}
+
+.hero-inner span {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero-inner h5 {
+  font-family: "EB Garamond", serif;
+}
+
+/* Mempelai */
+.mempelai {
+  padding: 3rem 0;
+}
+
+.mempelai h2 {
+  font-family: "Playfair Display", serif;
+}
+
+.mempelai .fs-1 {
+  font-family: "Playfair Display", serif;
+}
+
+/* Acara */
+.wrapper .btn {
+  background-color: #252828;
+  color: #ffffff;
+}
+
+.wrapper-acara {
+  border: 3px solid white;
+  border-radius: 1rem;
+  padding: 1.5rem 0;
+  margin: 0 1.2rem;
+}
+
+/* Countdown */
+.countdown-wrapper {
+  position: relative;
+  padding: 1rem 0 3rem 0;
+  /* background-color: #233757; */
+  /* color: #ffffff; */
+}
+
+/* Galeri */
+.galeri {
+  height: auto;
+  margin: 0 auto;
+}
+
+.galeri img {
+  object-fit: cover;
+  height: 90vh;
+  width: auto;
+  border-radius: 1.5rem;
+}
+
+.galeri .carousel-item:nth-child(1) img {
+  object-position: center 60%;
+}
+
+.galeri .carousel-item:nth-child(2) img {
+  object-position: center;
+}
+
+.galeri .carousel-item:nth-child(3) img {
+  object-position: center 40%;
+}

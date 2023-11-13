@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>m dual heading</title>
+    <style>
+      .dh-wrapper {
+        margin: 0 auto;
+      }
+
+      .dh-wrapper-inner {
+        position: relative;
+      }
+
+      .dh {
+        display: flex;
+        padding-bottom: 0;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        font-size: calc(60px + 1.2vw);
+      }
+
+      .dh::before {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        display: block;
+        width: 100%;
+        text-align: center;
+        content: "RSVP";
+        left: 50%;
+        top: 50%;
+        font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
+        color: rgba(173, 173, 173, 0.18) !important;
+      }
+
+      .dh-satu {
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+        display: inline-block;
+        line-height: 1.6em;
+        margin-top: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 0px !important;
+        margin-left: 0px !important;
+      }
+
+      .dh-satu-inner {
+        font-size: 50%;
+        padding-top: 0px !important;
+        padding-right: 3px !important;
+        padding-bottom: 0px !important;
+        padding-left: 3px !important;
+      }
+
+      .dh-dua {
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+        display: inline-block;
+        font-family: "Royal Wedding", Helvetica, Arial, Lucida, sans-serif !important;
+        color: #a8a8a8 !important;
+        font-size: 50% !important;
+        line-height: 1.6em;
+        margin-top: 0px !important;
+        margin-bottom: -39px !important;
+        margin-left: -49px !important;
+      }
+
+      .dh-dua-inner {
+        display: block;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+      }
+
+      .dh-satu::before,
+      .dh-dua::before {
+        display: block;
+        width: 0;
+        height: 0%;
+        background: #eee;
+        position: absolute;
+        z-index: 1;
+      }
+
+      .acara-wrap:nth-child(1) .acara .dh::before {
+        content: "Akad";
+      }
+
+      .acara-wrap:nth-child(2) .acara .dh::before {
+        content: "Resepsi";
+      }
+
+      .rsvp .dh::before {
+        content: "RSVP";
+      }
+
+      .galeri .dh::before {
+        content: "Galeri";
+      }
+
+      .hadiah .dh::before {
+        content: "Gift";
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Start your code here -->
+
+    <div class="dh-wrapper">
+      <div class="dh-wrapper-inner">
+        <h2 class="dh">
+          <span class="dh-satu">
+            <span class="dh-satu-inner">Konfirmasi</span>
+          </span>
+          <span class="dh-dua">
+            <span class="dh-dua-inner"> Kehadiran </span>
+          </span>
+        </h2>
+      </div>
+    </div>
+
+    <!-- End your code here -->
+  </body>
+</html>

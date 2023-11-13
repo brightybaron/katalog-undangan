@@ -1,0 +1,82 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+/* Modal */
+.modal-content.cover {
+  background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.25) 70%, #000c0f 100%), url("../../img/desain/2/2b/modal-cover.jpg");
+  background-position: center 30%;
+}
+
+/* Hero */
+.hero {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(78, 79, 73, 0.3) 75%, rgba(173, 186, 189, 1) 100%), url("../../img/desain/2/2b/hero.jpg");
+  background-position: center 35%;
+}
+
+.hero-inner span {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero-inner h5 {
+  font-family: "EB Garamond", serif;
+}
+
+/* Kotak */
+.kotak-1 {
+  background-color: #adbabd;
+  border-bottom: 10px double white;
+  border-radius: 0 0 1.5rem 1.5rem;
+  padding: 2rem 0;
+}
+
+.kotak-2 {
+  background-color: #adbabd;
+  border-top: 10px double white;
+  border-bottom: 10px double white;
+  border-radius: 1.5rem;
+  padding: 2rem 0;
+  color: #ffffff;
+}
+
+/* Mempelai */
+.mempelai {
+  text-align: center;
+}
+
+/* Acara */
+.kotak-2 .btn {
+  background-color: #252828;
+  color: #ffffff;
+}
+
+/* Countdown */
+.countdown-wrapper {
+  position: relative;
+  padding: 1rem 0 3rem 0;
+  /* background-color: #233757; */
+  /* color: #ffffff; */
+}
+
+/* Galeri */
+.galeri {
+  height: auto;
+  margin: 0 auto;
+}
+
+.galeri img {
+  object-fit: cover;
+  object-position: center 30%;
+  height: 90vh;
+  width: auto;
+  border-radius: 1.5rem;
+}
+
+/* On Mobile */
+@media (max-width: 576px) {
+  .galeri img {
+    height: 70vh;
+  }
+}
