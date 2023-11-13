@@ -5,7 +5,7 @@ body {
 /* HOME */
 /* -- Hero -- */
 .hero-container {
-  background-image: linear-gradient(180deg, rgba(1, 1, 1, 0.5494397588136817) 0%, rgba(0, 0, 0, 0.3953781341638217) 25%, rgba(255, 255, 255, 0) 100%), url("../img/hero.jpg");
+  background-image: linear-gradient(180deg, rgba(1, 1, 1, 0.5494397588136817) 0%, rgba(0, 0, 0, 0.3953781341638217) 25%, rgba(255, 255, 255, 0) 100%), url("img/hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
