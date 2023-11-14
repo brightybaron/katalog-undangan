@@ -1,0 +1,284 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+.body-bg {
+  /* background-image: linear-gradient(180deg, #1a202b 0%, #04070a 100%) !important; */
+  background-color: #ede4cd;
+  color: #3d4740;
+  /* border-bottom: 8px double white; */
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 90%, rgba(61, 71, 64, 1) 100%);
+  padding-bottom: 2rem;
+}
+
+.body-3 {
+  background-color: #3d4740;
+  color: #ffffff;
+  border-bottom: 8px double white;
+}
+
+/* Modal */
+.modal-content.cover {
+  background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.25) 70%, #000c0f 100%), url("../../img/desain/4/4c/modal.jpg");
+  background-position: center;
+}
+
+.btn-modal {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.btn-modal:hover {
+  background-color: #176366;
+  color: #ffffff;
+}
+
+/* Hero */
+.hero {
+  background-image: url("../../img/desain/4/4c/hero.jpg");
+  background-position: center;
+}
+
+.hero-inner span {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero-inner h5 {
+  font-family: "EB Garamond", serif;
+}
+
+/* Bingkai */
+
+.bingkai {
+  background-color: #ffffff;
+  padding: 0.5rem;
+  text-align: right;
+  margin: 0 auto;
+}
+
+.bingkai:last-child {
+  color: #000000;
+}
+
+.bingkai p {
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
+
+.foto {
+  /* width: 80%; */
+  margin: 0 auto 1rem auto;
+}
+
+.foto img {
+  width: 100%;
+  height: calc(70vh + 2.3vh);
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.bingkai:last-child .foto img {
+  object-position: center;
+}
+
+/* Mempelai */
+.mempelai-wrap {
+  /* background-image: url("../../img/desain/bg-1.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: bottom; */
+  /* background-size: cover; */
+  /* background-color: #ffffff; */
+  height: auto;
+  /* color: #000000; */
+}
+
+.mempelai {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  /* border-left: 8px double #867b69; */
+  /* border-right: 8px double #867b69; */
+  /* color: #867b69; */
+}
+
+.mempelai .card-body {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, #ffffff 100%), url("../../img/desain/4/4d/dec.png");
+  background-color: #a0a2a4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  padding: 1rem;
+  border-radius: 1em;
+  backdrop-filter: blur(5px);
+}
+
+.mempelai h2 {
+  font-family: "Playfair Display", serif;
+}
+
+.mempelai .fs-1 {
+  font-family: "Playfair Display", serif;
+}
+
+.mempelai .insta-wrap {
+  color: #ffffff;
+  background-color: #284c4a;
+}
+
+/* Foto Mempelai*/
+.profil-wrap {
+  max-width: 230px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  line-height: 0;
+}
+
+.profil-wrap-inner {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 6px solid white;
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+}
+
+.profil-wrap img {
+  position: relative;
+}
+
+/* Acara */
+.acara-container {
+  background-image: url("../../img/desain/4/4c/count-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  margin: 0 auto;
+  width: 90%;
+  color: #ffffff;
+}
+
+.acara-container-inner {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  padding-bottom: 1em;
+}
+
+.acara-wrap {
+  /* margin-top: calc(4rem + 1.5vh); */
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.acara-wrap .dh {
+  font-family: "Playfair Display", serif;
+}
+
+.acara-wrap .btn {
+  background-color: #176366;
+  color: #ffffff;
+}
+
+.acara-wrap .btn:hover {
+  background-color: #284c4a;
+}
+
+.acara h2 {
+  font-family: "Playfair Display", serif;
+}
+
+.acara p:nth-child(even) {
+  font-weight: bold;
+}
+
+/* Countdown */
+.countdown-wrap {
+  background-image: url("../../img/desain/4/4c/count.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+  color: #ffffff;
+  width: 90%;
+  margin: 3rem auto 0 auto;
+  border-radius: 1rem;
+}
+
+.countdown-wrap-inner {
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  left: 50%;
+  width: 100%;
+}
+
+.countdown .col {
+  background-color: #176366;
+  opacity: 0.8;
+}
+
+/* Hadiah */
+.btn-hadiah {
+  background-color: #176366;
+}
+
+/* RSVP */
+.rsvp {
+  position: relative;
+  height: auto;
+  margin: 0 auto;
+  /* background-color: #ffffff; */
+  /* color: #ffffff; */
+  padding: 2rem 0px;
+}
+
+.rsvp h2 {
+  font-weight: bold;
+}
+
+.rsvp-text {
+  text-align: center;
+  width: 80%;
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+/* Galeri */
+.galeri img {
+  margin: 0 auto;
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  border-radius: 0.5em;
+}
+
+/* On Mobile */
+@media (max-width: 576px) {
+  .mempelai .card-body {
+    text-align: center !important;
+  }
+
+  .acara-wrap .card img {
+    height: 25vh;
+  }
+
+  .foto img {
+    height: calc(50vh + 2.3vh);
+  }
+
+  .mempelai .row .g-0:first-child {
+    flex-direction: column-reverse;
+  }
+
+  .profil-wrap {
+    margin: 1em auto;
+  }
+}
